@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.portret {
+    max-width: 50%;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* мін висота*/
+    box-sizing: border-box;
+}
+
+.one {
+    background: linear-gradient(#290F05, #793c07, #170802);
+    color: #cc9933;
+}
+
+.two {
+    background-image: url(world-map.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+h2 {
+    color: #432f06;
+    text-shadow: 0px 0px 10px white;
+    font-size: 3rem;
+}
+
+h3 {
+    text-align: center;
+    /* 3 стор в зошиті*/
+}
+
+.interesing {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fact {
+    width: 300px;
+    background-color: #d2b48cd8;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0px 10px 10px #eadad3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.three .fact:nth-child(2) {
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px #26ff00;
+    animation: rorh 2.1s infinite linear;
+}
+
+.three .fact:nth-child(1) {
+    border-radius: 20%;
+    box-shadow: 0px -10px 20px #a0007d;
+    animation: rorh 2.3s infinite linear;
+}
+
+.three .fact:nth-child(3) {
+    border-radius: 20%;
+    box-shadow: 0px -10px 20px #5100ff;
+    animation: rorh 2.2s infinite linear;
+}
+
+.three {
+    background: linear-gradient(rgb(14, 12, 13), #793c07, #cc9933);
+    padding-bottom: 50px;
+}
+
+.four {
+    padding-bottom: 50px;
+    background: linear-gradient(#cc9933, #793c07, rgb(14, 12, 13));
+}
+
+.five {
+    background: linear-gradient(#290F05, #793c07, #170802);
+}
+
+.five,
+h2 {
+    padding: 20px;
+    color: bisque;
+    font-size: 4.5rem;
+    border-bottom: 2px solid bisque;
+    text-shadow: none;
+}
+
+li {
+    color: #f3d9a7;
+    font-size: 1.2rem;
+}
+
+li:nth-child(2n) {
+    transform: translateX(-50px);
+    margin: 10px;
+}
+
+h2,
+h3,
+h1,
+h4 {
+    animation: move 5s infinite linear;
+}
+
+@keyframes move {
+    0% {
+        color: aqua;
+    }
+
+    50% {
+        color: #a0007d;
+    }
+
+    75% {
+        color: #432f06;
+    }
+
+    100% {
+        color: aqua;
+    }
+}
+
+h3,
+h2,
+h1 {
+    animation: rorh 2.5s infinite linear;
+}
+
+@keyframes rorh {
+    0% {
+        transform: translateX(-25px);
+    }
+
+    75% {
+        transform: translateX(25px);
+    }
+
+    100% {
+        transform: translateX(-25px);
+    }
+}
