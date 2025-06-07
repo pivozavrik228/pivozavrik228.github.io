@@ -1,0 +1,88 @@
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 15%;
+}
+
+p {
+    font-family: "Cascadia Mono", sans-serif;
+
+}
+
+b {
+    font-family: "Pacifico", cursive;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Oswald", sans-serif;
+}
+
+.font {
+    padding-left: auto;
+    padding-right: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    justify-content: center;
+    background-color: black;
+    border-radius: 2.5px;
+}
+
+.col-12 {
+    padding-top: 50px;
+}
+
+.my-card {
+    box-shadow: 0px 10px 3px 5px rgb(191, 198, 245);
+    text-shadow: 2px 2px 0px #d5d5d5, 2px 2px 0px rgba(0, 0, 0, 0.2);
+    /* font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, */
+        /* "AppleGothic", sans-serif; */
+    margin: 15px;
+    font-size: 0.9em;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.special {
+    color: white;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.498), rgba(0, 0, 0, 0.484)), url(world-map.jpg);
+    background-size: cover;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.fon {
+    background-color: beige;
+}
+
+.footer{
+background-color: black;
+padding: 30px 0px;
+margin-top: 50px;
+}
+.socio-link{
+    font-size: 2rem;
+    color: burlywood;
+    margin: 10px;
+}
+.socio-link:hover{
+    color: white;
+}
+.footer p{
+    color: burlywood;
+}
