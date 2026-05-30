@@ -1,0 +1,146 @@
+img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 1s ease;
+}
+
+
+  .spinning:hover {
+    transform: rotate(360deg);
+  }
+
+.menu{
+    padding: 0;
+    background-color: white;
+    justify-content: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: "Cascadia Mono", sans-serif;
+    background-image: url(menubg.jpg);
+    letter-spacing: 5px;
+}
+.big{
+    font-size: 100px;
+    color: rgb(226, 161, 76);
+    transition: 0.9s;
+}
+.big:hover{
+letter-spacing: 18px;
+}
+
+
+    .swiper {
+  width: 600px;
+  height: 600px;
+
+}
+.swiper-button-prev, .swiper-button-next{
+ background-color: #ffffffd1;   
+ color: black;
+ padding: 5px;
+}
+.best-sellers{
+    text-align: center;
+    align-items: center;
+    color: rgb(110, 83, 48);
+}
+
+
+
+
+
+
+
+/* ,,,,,,,,,,,,, */
+
+
+
+
+
+
+body {
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-menu {
+    list-style-type: none;
+    padding-left: 0;
+}
+.main-menu li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid darkgray;
+    cursor: pointer;
+}
+.card{
+    width: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 13px;
+    background-color: #ac170d;
+    color: rgb(247, 175, 255);
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p-name{
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid rgb(248, 255, 252) ;
+}
+.program{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div-menu{
+    flex-grow: 1;
+    width: 200px;
+}
+.card-wrap-div{
+    flex-grow: 10;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start; /*  ??? */
+
+}
+.div-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-menu li{
+    transition: 0.3s;
+}
+.main-menu li:hover {
+    color: #4c602c;
+    letter-spacing: 1px;
+}
+[v-cloak]{
+    display: none;
+}
+
+.black{
+  /* background-color: rgba(74, 74, 74, 0.763); */
+  background-image: url(end\ back-.jpg);
+}
+
+
+.end{
+  /* background-color: rgba(74, 74, 74, 0.763); */
+  background-image: url(end\ back-.jpg);
+  color: rgb(195, 136, 231);
+  text-align: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    background-image: url(h-co-jQ0RUW5kVGc-unsplash.jpg);
+}
