@@ -1,0 +1,76 @@
+img {
+    width: 100%;
+}
+
+.logo {
+    transition: 0.5s;
+    width: 15%;
+}
+
+.logo:hover {
+    transition: 0.5s;
+    width: 20%;
+}
+
+.main {
+    border-bottom: 10px dashed rgb(255, 209, 152);
+    border-top: 10px dashed rgb(255, 209, 152);
+    border-left: 10px dashed crimson;
+    border-right: 10px dashed crimson;
+    padding: 0;
+    background-color: white;
+    justify-content: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: "Cascadia Mono", sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+.about-1 {
+    color: antiquewhite;
+    width: 100%;
+    margin: 0;
+    /* background-image: url(brian-patrick-tagalog-_8hGFBxWD0A-unsplash.jpg); */
+}
+
+.rotate {
+    animation: spin 18s linear infinite;
+    /* 360° / 20° ≈ 18 сек */
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.about-2 {
+    color: antiquewhite;
+    width: 100%;
+    margin: 0;
+    /* background-image: url(brian-patrick-tagalog-_8hGFBxWD0A-unsplash.jpg); */
+}
+
+body {
+    background-image: url(brian-patrick-tagalog-_8hGFBxWD0A-unsplash.jpg);
+}
+
+.menu {
+    color: aliceblue;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(18, 16, 16, 0.668);
+}
+
+.amenu {
+    background-color: rgba(97, 97, 97, 0.349);
+    color: antiquewhite;
+    text-decoration: none;
+}
